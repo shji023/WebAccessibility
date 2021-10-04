@@ -27,6 +27,7 @@ caption {
 col:nth-child(1) {
   width: 20%;
 }
+
 col:nth-child(3) {
   width: 40%;
 }
