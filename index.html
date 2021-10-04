@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Web Accessibility</title>
+</head>
+<body>
+  <div class="container">
+    <table>
+      <caption>수험자 지참 신분증 안내 대학생/일반인,초등학생,중학생/고등학생,군인,외국인,재외국민 별 규정신분증 및 대체 가능한 증명서 구분 표</caption>
+      <colgroup>
+        <col>
+        <col>
+        <col>
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col" id="division">구분</th>
+          <th scope="col" id="idcard">규정신분증</th>
+          <th scope="col" id="alternative">대체 가능한 증명서</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="5" scope="row" id="student-public">대학생/<br>
+            일반인</th>
+          <td headers="idcard student-public">주민등록증</td>
+          <td rowspan="5" headers="alternative student-public">해당 주민센터에서 발급한 기간 만료 전의<br>
+            ‘주민등록증 발급신청 확인서’</td>
+        </tr>
+        <tr>
+          <td headers="idcard student-public">운전면허증<br>
+            (경찰청 발행)</td>
+        </tr>
+        <tr>
+          <td headers="idcard student-public">기간만료 전의 여권<br>(※ 주민등록번호가 없는 여권은 ‘여권정보증명서'를<br>함께 제시해야 신분증으로 인정함)</td>
+        </tr>
+        <tr>
+          <td headers="idcard student-public">공무원증</td>
+        </tr>
+        <tr>
+          <td headers="idcard student-public">장애인 복지 카드</td>
+        </tr>
+        <tr>
+          <th rowspan="4" scope="row" id="schoolchild">초등학생</th>
+          <td headers="idcard schoolchild">기간만료 전의 여권<br>(※ 주민등록번호가 없는 여권은 ‘여권정보증명서'를 <br>함께 제시해야 신분증으로 인정함)</td>
+          <td rowspan="10" headers="alternative schoolchild middle-high-student soldier">TOEIC 정기시험 신분확인증명서<br>
+            <a href="#" download><span>한글파일</span></a>&nbsp;<a href="#" ><span>워드파일</span></a></td>
+        </tr>
+        <tr>
+          <td headers="idcard schoolchild">주민등록등본/초본</td>
+        </tr>
+        <tr>
+          <td headers="idcard schoolchild">건강보험증</td>
+        </tr>
+        <tr>
+          <td headers="idcard schoolchild">청소년증</td>
+        </tr>
+        <tr>
+          <th rowspan="3" scope="row" id="middle-high-student">중학생/<br>
+            고등학생</th>
+          <td headers="idcard middle-high-student">학생증<br>
+            (국내 학생증만 허용)</td>
+        </tr>
+        <tr>
+          <td headers="idcard middle-high-student">기간만료 전의 여권<br>(※ 주민등록번호가 없는 여권은 ‘여권정보증명서'를 <br>함께 제시해야 신분증으로 인정함) </td>
+        </tr>
+        <tr>
+          <td headers="idcard middle-high-student">청소년증</td>
+        </tr>
+        <tr>
+          <th rowspan="3" scope="row" id="soldier">군인</th>
+          <td headers="idcard soldier">공무원증<br>
+            (장교 및 부사관, 군무원)</td>
+        </tr>
+        <tr>
+          <td headers="idcard soldier">사병<br>
+            (TOEIC 정기시험 신분확인 증명서) </td>
+        </tr>
+        <tr>
+          <td headers="idcard soldier">사관생도 신분증<br>
+            (육군, 공군, 해군, 육군3사관, 국군간호사관)</td>
+        </tr>
+        <tr>
+          <th rowspan="4" scope="row" id="foreigner">외국인</th>
+          <td headers="idcard foreigner">외국인 등록증 </td>
+          <td rowspan="6" headers="alternative foreigner abroad-citizen">규정 신분증이 없을 경우 응시 불가</td>
+        </tr>
+        <tr>
+          <td headers="idcard foreigner">기간만료 전의 여권</td>
+        </tr>
+        <tr>
+          <td headers="idcard foreigner">외국국적동포 국내거소신고증</td>
+        </tr>
+        <tr>
+          <td headers="idcard foreigner">영주증(출입국·외국인청 발행)</td>
+        </tr>
+        <tr>
+          <th rowspan="2" scope="row" id="abroad-citizen">재외국민</th>
+          <td headers="idcard abroad-citizen">재외국민 주민등록증 </td>
+        </tr>
+        <tr>
+          <td headers="idcard abroad-citizen">기간만료 전의 여권<br>(※ 주민등록번호가 없는 여권은 ‘여권정보증명서'를 <br>함께 제시해야 신분증으로 인정함)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'AppleSDGothicNeo-Regular';
+  src: url("./fonts/AppleSDGothicNeo-Regular.ttf");
+}
+
+.container {
+  width: 1049px;
+  height: 1200px;
+  color: #0d0d0d;
+  font-family: 'AppleSDGothicNeo-Regular', 'Noto Sans', sans-serif;
+}
+
+table {
+  border: 1px solid #eaeaea;
+  border-collapse: collapse;
+}
+
+caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+col:nth-child(1) {
+  width: 20%;
+}
+col:nth-child(3) {
+  width: 40%;
+}
+
+th, td {
+  border: 1px solid #ebebeb;
+  padding: 10px;
+  text-align: center;
+}
+
+thead {
+  background-color: #eaeaea;
+}
+
+#student-public,
+#schoolchild,
+#middle-high-student,
+#soldier,
+#foreigner,
+#abroad-citizen {
+  font-weight: normal;
+}
+
+#division,
+#idcard,
+#alternative {
+  padding: 15px;
+  font-weight:600;
+}
