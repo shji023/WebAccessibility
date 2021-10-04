@@ -60,9 +60,15 @@
 - CSS
 ![css](https://user-images.githubusercontent.com/60960130/135886035-647f9a3b-24d3-4c06-a578-624ddb5a35d2.PNG)
 
-## 접근성 및 SEO 관련 분석 리포트 제출 (라이트 하우스)
+## 접근성 및 SEO 관련 분석 리포트 제출
+- Lighthouse
+![lighthouse](https://user-images.githubusercontent.com/60960130/135890578-6f5c1f9c-35ea-4fb2-a900-d313c2dbb274.PNG)
 
 ## 프로젝트 후기
+
+위 프로젝트를 계기로 처음으로 웹접근성을 고려하며 웹페이지를 만들어보았다. 오직 테이블만 구성함에도 불구하고 생각해야할 요소가 많았다. <br />
+그동안 div를 남발하며 의미없는 코드를 작성했던 습관을 고쳐야겠다고 느꼈다.  <br />
+이미 많은 웹 사이트들의 코드가 웹접근성을 고려하여 작성되어있는 것을 보고 앞으로 HTML작업을 할때 필수적으로 웹접근성 고려해야겠다고 생각했다.
 
 [참고 출처]
 - https://www.w3.org/TR/WCAG21/#cc5
