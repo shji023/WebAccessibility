@@ -62,7 +62,8 @@
 
 ## 접근성 및 SEO 관련 분석 리포트 제출
 - Lighthouse
-![lighthouse](https://user-images.githubusercontent.com/60960130/135890578-6f5c1f9c-35ea-4fb2-a900-d313c2dbb274.PNG)
+
+  ![lighthouse](https://user-images.githubusercontent.com/60960130/135890578-6f5c1f9c-35ea-4fb2-a900-d313c2dbb274.PNG)
 
 ## 프로젝트 후기
 
